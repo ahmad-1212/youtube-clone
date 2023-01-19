@@ -1,0 +1,54 @@
+.video-card {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  box-shadow: 0rem 1rem 5rem rgb(65, 50, 50, 50%);
+  height: 100%;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  min-height: 40%;
+  overflow: hidden;
+}
+
+.img img {
+  width: 100%;
+  margin-top: -4rem;
+  background-position: center;
+}
+
+.video-card a {
+  text-decoration: none;
+}
+
+.video-title {
+  font-size: 1.6rem;
+  display: block;
+  font-weight: 600;
+  /* margin-top: -3rem; */
+  margin-left: 1rem;
+  color: inherit;
+}
+
+.channel-title {
+  font-size: 1rem;
+  color: grey;
+  margin-left: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.channel-title svg {
+  font-size: 1.2rem;
+  fill: grey;
+}
+
+@media only screen and (max-width: 580px) {
+  .channel-title {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+}

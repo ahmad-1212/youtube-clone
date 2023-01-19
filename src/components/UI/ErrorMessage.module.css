@@ -1,0 +1,9 @@
+.error {
+  width: 80%;
+  margin: auto;
+  margin-top: 30vh;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}

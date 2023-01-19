@@ -1,0 +1,29 @@
+.input {
+  flex: 0 0 50%;
+  background-color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.input button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.input .icon {
+  display: inline-block;
+  fill: red;
+  height: 2rem;
+  width: 2rem;
+}

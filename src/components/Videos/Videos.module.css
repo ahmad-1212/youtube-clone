@@ -1,0 +1,7 @@
+.video-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: 2rem;
+  grid-auto-rows: minmax(20rem, auto);
+  padding: 0 3rem;
+}

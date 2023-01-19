@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  height: calc(100vh - 8rem);
+}
+
+@media only screen and (max-width: 580px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.container .copyright {
+  font-size: 1.2rem;
+  color: #e3e3e3;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.sidebar {
+  border-right: 1px solid rgba(255, 255, 255, 0.27);
+}
+
+.videos {
+  height: 95%;
+  overflow: auto;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 1rem;
+  border-radius: 50rem;
+  background-color: #888;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #525252;
+}
