@@ -9,7 +9,7 @@ const options = {
 };
 
 export const fetchFromAPI = async (url) => {
-  const response = await fetch(`${BASE_URL}/${url}&maxResults=100`, options);
+  const response = await fetch(`${BASE_URL}/${url}&maxResults=50`, options);
   if (!response.ok) {
     throw new Error(`Something went wrong ( ${response.status} ) Error!`);
   }
